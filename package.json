@@ -1,0 +1,29 @@
+{
+  "name": "platzi-expressjs-course",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "lint": "eslint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "eslint": "^9.11.1",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "nodemon": "^3.1.7",
+    "prettier": "^3.3.3"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.0.3",
+    "@hapi/boom": "^10.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "is-number": "^7.0.0",
+    "joi": "^17.13.3"
+  }
+}
